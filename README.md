@@ -15,3 +15,12 @@ This implementation of the Sieve of Eratosthenes leverages radix sort as a key o
 5. **Reduced Redundant Marking**: Radix sort minimizes redundant marking of numbers. It ensures that each number is marked as prime or non-prime only once, reducing unnecessary iterations and computations.
 
 Overall, the combination of the Sieve of Eratosthenes with radix sort leverages the efficient sorting properties of radix sort to make the prime number detection process faster and more scalable, especially when dealing with large upper limits (n). This approach can significantly improve the performance of prime number generation algorithms.
+
+## Attribution
+
+- **Sieve of Eratosthenes**: The core concept of prime number detection is based on the ancient algorithm devised by Eratosthenes.
+
+- **Radix Sort**: The radix sort implementation used in this project was adapted from Harold H. Seward with modifications for this specific use case.
+
+- **Inspiration**: The implementation was inspired by my own personal frustrations of not finding them fast enough.
+  
