@@ -5,6 +5,8 @@ Created on Mon Sep  4 01:47:43 2023
 @author: Sean Smith
 """
 
+# sieveeratosthenesradix.py
+
 def sieve_eratosthenes_radix(n):
     # Initialize a list of booleans to mark numbers as prime or not
     is_prime = [True] * (n + 1)
